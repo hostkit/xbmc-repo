@@ -6,6 +6,7 @@ Hostkit's XBMC Repository
 * Last Update:	May 14, 2017
 * Version:	1.0.1
 * Github:	<https://github.com/hostkit/xbmc-repo>
+* Platform: Android (rooted)
 
 Usage
 -----
