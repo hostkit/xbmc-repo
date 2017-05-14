@@ -7,11 +7,9 @@ Hostkit's XBMC Repository
 * Version:	1.0.1
 * Github:	<https://github.com/hostkit/xbmc-repo>
 
-
 Usage
 -----
 Simply download the repository zip and install it, or use XBMC's repository installer plugin.
-
 
 Questions, Comments, Concerns, Issues
 -------------------------------------
