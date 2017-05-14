@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="PowerOption Android" name="PowerOption Android" version="1.0.1" provider-name="Hostkit">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="PowerOption Android">
+        <info compressed="false">https://raw.githubusercontent.com/hostkit/xbmc-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/hostkit/xbmc-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/hostkit/xbmc-repo/master/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>PowerOption Android</summary>
+        <description>Shutdown or Reboots your Android device.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.program.poweroptionandroid"
+  name="PowerOption Android"
+  version="1.0.1"
+  provider-name="hostkit">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">PowerOption Android</summary>
+    <description lang="en">Shutdown or Reboots your Android device.</description>
+	<disclaimer>Your device must already be rooted, and you will need to grant SU permissions to the script when prompted.</disclaimer>
+  </extension>
+</addon>
+</addons>
